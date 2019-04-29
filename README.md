@@ -1,2 +1,7 @@
 # StudentLoanCalculator
-A calculator for determining the approximate monthly payment on a student loan, as well as the lifetime interest paid. , based on principal and interest amounts inputted by user. 
+This program calculates the monthly payment on a student loan, using the EMI equation.
+It also calculates the lifetime interest charges on the loan. 
+
+Note that this program works for any loan, not just student loans. 
+
+

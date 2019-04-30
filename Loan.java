@@ -83,12 +83,12 @@ public class Loan{
 			owing = principal + mr;
 			
 		termMonths = termYears*12;
-		
+		return 0;
 	}
 
 	public static void main(String[] args){
 		
-		Loan loan = new Loan(40000, 10, 120);
+		Loan loan = new Loan(40000, 9.5, 120);
 			
 		System.out.println(loan.payment(loan.principal, loan.rate, loan.termYears));
 		System.out.println(loan.monthlyInterest(loan.emi, loan.principal, loan.termYears));
@@ -96,5 +96,4 @@ public class Loan{
 	}
 	
 }
-
 
